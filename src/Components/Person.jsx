@@ -24,7 +24,7 @@ const Person = () => {
 	const getPerson = async () => {
 		try {
 			const { data } = await axios.get(`person/${category}?page=${page}`);
-			console.log(data);
+			// console.log(data);
 
 			if (data.results.length > 0) {
 				setPerson((prev) => [...prev, ...data.results]);

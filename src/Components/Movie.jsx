@@ -26,7 +26,7 @@ const Movie = () => {
 			const { data } = await axios.get(
 				`movie/${category}?page=${page}`
 			);
-			console.log(data)
+			// console.log(data)
 
 			if (data.results.length > 0) {
 				setMovie((prev) => [...prev, ...data.results]);
