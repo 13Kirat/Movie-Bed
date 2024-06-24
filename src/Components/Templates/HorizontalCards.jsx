@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const HorizontalCards = ({ data }) => {
-	console.log(data);
+	// console.log(data);
 	return data ? (
 		<div className="w=[100%] h-[60vh] flex overflow-x-auto  overflow-y-hidden m-5">
 			{data.length > 0 &&

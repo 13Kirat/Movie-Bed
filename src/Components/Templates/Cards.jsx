@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Cards = ({ data, title }) => {
-	console.log(data);
+	// console.log(data);
 	return (
 		<div className="grid items-center w-screen px-10 grid-cols-5 gap-12 gap bg-[#1f1e24]">
 			{data.map((card, index) => (

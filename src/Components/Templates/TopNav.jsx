@@ -16,7 +16,7 @@ const TopNav = () => {
 		try {
 			const { data } = await axios.get(`/search/multi?query=${query}`);
 			setResults(data.results); // Update results with the data from the API
-			console.log(data.results);
+			// console.log(data.results);
 		} catch (error) {
 			console.log(error);
 		}

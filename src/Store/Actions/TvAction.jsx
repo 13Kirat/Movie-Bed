@@ -25,7 +25,7 @@ export const asyncLoadTv = (id) => async (dispatch, getState) => {
 		};
 
 		dispatch(loadTv(allDetails));
-		console.log(allDetails);
+		// console.log(allDetails);
 	} catch (error) {
 		console.log(error);
 	}

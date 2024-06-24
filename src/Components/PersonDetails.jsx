@@ -21,7 +21,7 @@ const PersonDetails = () => {
 	const navigate = useNavigate();
 
 	const { info } = useSelector((state) => state.person);
-	console.log(info);
+	// console.log(info);
 
 	const { id } = useParams();
 

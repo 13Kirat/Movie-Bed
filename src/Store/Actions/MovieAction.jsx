@@ -26,7 +26,7 @@ export const asyncLoadMovie = (id) => async (dispatch, getState) => {
 		};
 
 		dispatch(loadMovie(allDetails));
-		console.log(allDetails);
+		// console.log(allDetails);
 	} catch (error) {
 		console.log(error);
 	}
